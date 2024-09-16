@@ -1,3 +1,14 @@
+# Notice:
+## This repository is a copy of the original project. All sensitive information has been removed to ensure privacy and security.
+
+The original project was created and developed by:
+
+- https://github.com/1yam
+- https://github.com/noahGms
+- https://github.com/Semix259
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## What is DecentralStream 
 
 DecentralSteam is A new way to allow user to live stream using IPFS network instead of using server to send video
