@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  web:
+    container_name: web
+    build:
+      context: web
+    restart: always
+    ports:
+      - 3000:3000
+    environment:
+        - REACT_APP_API_URL=YOUR_API_URL
+        - REACT_APP_CHAT_URL=YOUR_CHAT_URL
+    networks:
+      - backend
+
+  api:
+    container_name: api
+    build:
+      context: api
+    restart: always
+    ports:
+      - 8000:8000
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge
